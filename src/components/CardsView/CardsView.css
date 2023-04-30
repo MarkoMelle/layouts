@@ -1,0 +1,76 @@
+.shop-cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 50px;
+   padding: 25px;
+}
+
+.shop-card {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: -1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+}
+
+.shop-card__title {
+   text-transform: uppercase;
+   position: absolute;
+   top: 1rem;
+}
+
+.shop-card__color {
+   position: absolute;
+   top: calc(2rem + 15px);
+}
+
+.shop-card__img {
+   width: 100%;
+   user-select: none;
+   -webkit-user-drag: none;
+   -moz-user-drag: none;
+   -ms-user-drag: none;
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.shop-card__purchase {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: absolute;
+   bottom: 1rem;
+}
+
+.purchase__price {
+   color: var(--primary-color);
+   user-select: none;
+}
+
+.purchase__add-btn {
+   background: none;
+   border-radius: 1.5rem;
+   padding: 5px 10px;
+   border: 1px solid var(--primary-color);
+   color: var(--primary-color);
+   cursor: pointer;
+}
+
+.purchase__add-btn:hover {
+   background: var(--primary-color);
+   color: #fff;
+}
+
+.purchase__add-btn:active {
+   background: var(--primary-color);
+   color: #fff;
+}
+
+.purchase__add-btn:focus {
+   outline: none;
+   background: var(--primary-color);
+   color: #fff;
+}

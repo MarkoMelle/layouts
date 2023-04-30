@@ -1,0 +1,23 @@
+.iconSwitch-btn {
+   background: none;
+   align-self: flex-end;
+   padding: 0;
+   margin: 0;
+   border: none; 
+   color: var(--secondary-color);
+   cursor: pointer;
+   font-size: 40px;
+}
+
+.iconSwitch-btn:hover {
+   color: var(--primary-color);
+}
+
+.iconSwitch-btn:active {
+   color: var(--primary-color);
+}
+
+.iconSwitch-btn:focus {
+   outline: none;
+   color: var(--primary-color);
+}
