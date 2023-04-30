@@ -39,18 +39,20 @@
 .shop-card__purchase {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   bottom: 1rem;
 }
 
 .purchase__price {
+  margin-left: 15px;
   color: var(--primary-color);
   user-select: none;
 }
 
 .purchase__add-btn {
+  margin-right: 15px;
   background: none;
   border-radius: 1.5rem;
   padding: 5px 10px;
